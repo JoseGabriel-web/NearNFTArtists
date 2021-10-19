@@ -1,0 +1,15 @@
+{
+  "name": "jgmercedes-near-contract-demo",
+  "version": "0.0.1",
+  "description": "Demo for NCD-l1",
+  "scripts": {
+    "test": "asp",
+    "clean": "rm -rf ./build && rm -rf ./neardev",
+    "build": "asb --target debug"
+  },
+  "author": "jgmercedes",
+  "license": "MIT",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
