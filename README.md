@@ -70,11 +70,11 @@ Configure near-cli:
 ## Command to get specific NFT Artist profile:
 
 ```html
-    near view $CONTRACT_NAME checkAnArtist "{\"artistID\": number}"
+    near view $CONTRACT_NAME checkAnArtist '{"artistID": number}'
 ```
 
 ## Command to change availability status:
 
 ```html
-    near call $CONTRACT_NAME changeStatus "{\"artistID\": 0}" --account-id <id>.testnet
+    near call $CONTRACT_NAME changeStatus '{"artistID": 0}' --account-id <id>.testnet
 ```
